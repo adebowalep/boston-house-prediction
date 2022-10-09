@@ -414,6 +414,9 @@ else:
         from pathlib import Path
         return [str(Path(__file__).with_name("_pyinstaller").resolve())]
 
+    import mkl
+    __mkl_version__ = "{MajorVersion}.{MinorVersion}.{UpdateVersion}".format(**mkl.get_version())
+
 
 # get the version using versioneer
 from .version import __version__, git_revision as __git_version__

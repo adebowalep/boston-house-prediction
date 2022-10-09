@@ -1,0 +1,97 @@
+{
+  "build": "h246ff09_26",
+  "build_number": 26,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [
+    "libgfortran 5.0.0 *_26"
+  ],
+  "depends": [
+    "llvm-openmp >=8.0.0"
+  ],
+  "extracted_package_dir": "/Users/suleimanadebowaleojo/opt/anaconda3/pkgs/libgfortran5-11.2.0-h246ff09_26",
+  "features": "",
+  "files": [
+    "lib/libgcc_s.1.1.dylib",
+    "lib/libgfortran.5.dylib",
+    "lib/libgfortran.dylib",
+    "lib/libgomp.1.dylib",
+    "lib/libgomp.dylib",
+    "lib/libquadmath.0.dylib",
+    "lib/libquadmath.dylib"
+  ],
+  "fn": "libgfortran5-11.2.0-h246ff09_26.conda",
+  "legacy_bz2_md5": "aec418d4f5f8bf6fd81ee64688c2c6a3",
+  "license": "GPL-3.0-only WITH GCC-exception-3.1",
+  "license_family": "GPL",
+  "link": {
+    "source": "/Users/suleimanadebowaleojo/opt/anaconda3/pkgs/libgfortran5-11.2.0-h246ff09_26",
+    "type": 1
+  },
+  "md5": "97fe70c1cd663969d0a549439fe5aec7",
+  "name": "libgfortran5",
+  "package_tarball_full_path": "/Users/suleimanadebowaleojo/opt/anaconda3/pkgs/libgfortran5-11.2.0-h246ff09_26.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libgcc_s.1.1.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_1f339d54-556d-4beb-8e74-fc0507b3b9e1g1o2cxlb/croots/recipe/gfortran_impl_osx-64_1652877455798/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "a464786e122d924e82aef4158e3e4aeb0f8e50ef833d0f03d43a8b4751a78959",
+        "sha256_in_prefix": "f83b438d5c4bc6e0810671fa9e7123664cf11674b0b937e5cd80b50fe3d77756",
+        "size_in_bytes": 110160
+      },
+      {
+        "_path": "lib/libgfortran.5.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_1f339d54-556d-4beb-8e74-fc0507b3b9e1g1o2cxlb/croots/recipe/gfortran_impl_osx-64_1652877455798/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "6aaf81a693956d22a1e6376ea5e3dbadcf06ff6dff2ee7924fd7cd92e250ba48",
+        "sha256_in_prefix": "c3278a79e752d6f46e851fa6bd3df25fd77afd7615a860dca7b193e227bc7e19",
+        "size_in_bytes": 6609056
+      },
+      {
+        "_path": "lib/libgfortran.dylib",
+        "path_type": "softlink",
+        "sha256": "6aaf81a693956d22a1e6376ea5e3dbadcf06ff6dff2ee7924fd7cd92e250ba48",
+        "size_in_bytes": 6609056
+      },
+      {
+        "_path": "lib/libgomp.1.dylib",
+        "path_type": "softlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/libgomp.dylib",
+        "path_type": "softlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/libquadmath.0.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_1f339d54-556d-4beb-8e74-fc0507b3b9e1g1o2cxlb/croots/recipe/gfortran_impl_osx-64_1652877455798/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "01909c6596850cd5f426092b5cb97025f420c0c3b050613a6cbb06c7278f4cb8",
+        "sha256_in_prefix": "6e17bbff107d3ffbaebf9876ff2f458ddfd6413f70362f574c188d7604ed3ad3",
+        "size_in_bytes": 302384
+      },
+      {
+        "_path": "lib/libquadmath.dylib",
+        "path_type": "softlink",
+        "sha256": "01909c6596850cd5f426092b5cb97025f420c0c3b050613a6cbb06c7278f4cb8",
+        "size_in_bytes": 302384
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "21f419158b85da204dd551b5a9133c28238093e59a473c88e54e8e05e97f47b6",
+  "size": 1355806,
+  "subdir": "osx-64",
+  "timestamp": 1652878095336,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/libgfortran5-11.2.0-h246ff09_26.conda",
+  "version": "11.2.0"
+}

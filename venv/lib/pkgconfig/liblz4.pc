@@ -1,0 +1,14 @@
+#   LZ4 - Fast LZ compression algorithm
+#   Copyright (C) 2011-2014, Yann Collet.
+#   BSD 2-Clause License (http://www.opensource.org/licenses/bsd-license.php)
+
+prefix=/Users/suleimanadebowaleojo/Desktop/ML PROJECTS/House prediction/venv
+libdir=/Users/suleimanadebowaleojo/Desktop/ML PROJECTS/House prediction/venv/lib
+includedir=/Users/suleimanadebowaleojo/Desktop/ML PROJECTS/House prediction/venv/include
+
+Name: lz4
+Description: extremely fast lossless compression algorithm library
+URL: http://www.lz4.org/
+Version: 1.9.3
+Libs: -L/Users/suleimanadebowaleojo/Desktop/ML PROJECTS/House prediction/venv/lib -llz4
+Cflags: -I/Users/suleimanadebowaleojo/Desktop/ML PROJECTS/House prediction/venv/include

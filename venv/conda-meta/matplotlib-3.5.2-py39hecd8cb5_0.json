@@ -1,0 +1,37 @@
+{
+  "build": "py39hecd8cb5_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "matplotlib-base >=3.5.2,<3.5.3.0a0",
+    "python >=3.9,<3.10.0a0",
+    "tornado"
+  ],
+  "extracted_package_dir": "/Users/suleimanadebowaleojo/opt/anaconda3/pkgs/matplotlib-3.5.2-py39hecd8cb5_0",
+  "features": "",
+  "files": [],
+  "fn": "matplotlib-3.5.2-py39hecd8cb5_0.conda",
+  "legacy_bz2_md5": "4986576f567c9ae3e255adea4227ab55",
+  "license": "LicenseRef-PSF-based",
+  "license_family": "PSF",
+  "link": {
+    "source": "/Users/suleimanadebowaleojo/opt/anaconda3/pkgs/matplotlib-3.5.2-py39hecd8cb5_0",
+    "type": 1
+  },
+  "md5": "df993e1a1d36ae8aa9ccaf7abbb576cb",
+  "name": "matplotlib",
+  "package_tarball_full_path": "/Users/suleimanadebowaleojo/opt/anaconda3/pkgs/matplotlib-3.5.2-py39hecd8cb5_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "d38260b29a171d056a7b888e38cb78c0a7f91a1ab1adac8e6647ada82729999e",
+  "size": 7446,
+  "subdir": "osx-64",
+  "timestamp": 1660168462454,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/matplotlib-3.5.2-py39hecd8cb5_0.conda",
+  "version": "3.5.2"
+}
