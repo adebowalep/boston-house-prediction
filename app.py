@@ -33,6 +33,23 @@ def predict_api():
     print(output[0])
     return jsonify(output[0])
 
+# Instead of creating api, we can just create a web application, where we just provide the inputs,
+# we submit the form, as soon as we submit the form, we take the data over here and do the prediction
+#with the help of the model we specifically have.
+
+@app.route('/predict', methods='POST')
+def predict():
+    #This captures whatever values we have in the form
+    # we convert to float, because all the needs to be given as float wrt the model
+    data = [float(x)for x in request.form.values()]
+
+    #Transform the data
+    final_input = scaler.transform(np.array(data.reshape(1,-1)))
+    print(final_input)
+    output = regmodel.predict(final_input)[0]
+    return render_template('home.html', prediction_text="The House  price  prediction is {}".format(output))
+
+
 if __name__ == '__main__':
     app.run(debug=True)
     
